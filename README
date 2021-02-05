@@ -26,7 +26,10 @@ python-pygame 1.7.1 (or higher)		http://www.pygame.org/
 --- Installation ---
 
 Run:
-python setup.py install
+git clone -b python3 https://github.com/indritbashkimi/slingshot
+cd slingshot
+python3 setup.py build
+sudo python3 setup.py install
 
 --- Credit/History/Contact ---
 
